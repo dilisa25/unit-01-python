@@ -23,12 +23,16 @@ it's positive, negative, or zero using if-elif-else statements.
 """
 print("------task2-----")
 print("")
+#assign number
 my_num = 5
 
+# if statement for postive 
 if my_num > 0:
     print("its postive")
+ # if statement for postive 
 if my_num < 0 :
     print("its negative")
+ # if statement for postive 
 if my_num == 0:
     print("its zero")
     
