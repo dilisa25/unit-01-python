@@ -15,8 +15,6 @@ if password.lower() == correct_password:
     print("correct")
 
 
-
-
 print("")
 print("----Task1-----")
 print("")
@@ -31,10 +29,12 @@ print("")
 
 task = input("type something : ")
 
-if task == "" 
-  
-  
+if task == "":
+    print("invaild")
+else:
+    print("vaild")
 
+  
 
 print("")
 print("----Task2-----")
@@ -49,8 +49,8 @@ print("")
 print("----Task3-----")
 print("")
 
-sentence = "I have a cat and a dog"
-new_sentence = sentence.replace ("cat","dog")
+sentence = "I have a Cat and a dog"
+new_sentence = sentence.lower().replace ("cat","dog")
 print(new_sentence)
 
 print("")
@@ -65,6 +65,14 @@ Write a program that takes a person's name and age as input and prints it
 print("")
 print("----Task4-----")
 print("")
+ 
+name = input("Name: ")
+age = input("Age: ")
+
+my_sentence = f" Hello Im {name} and Im {age} year old. "
+
+print(my_sentence)
+
 
 print("")
 print("----Task4-----")
@@ -80,6 +88,9 @@ print("")
 print("----Task5-----")
 print("")
 
+nmb = 20.1/5.3
+txt = f"Result: {nmb:.1f}"
+print(txt)
 print("")
 print("----Task5-----")
 print("")
