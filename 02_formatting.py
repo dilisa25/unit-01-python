@@ -7,10 +7,11 @@ The password should not be case sensitive
 print("")
 print("----Task1-----")
 print("")
+#set the correct password
 correct_password = "cat"
-
+#ask user for password
 password = input("Type password: ")
-
+# make the password not case sensitive
 if password.lower() == correct_password:
     print("correct")
 
@@ -26,15 +27,13 @@ If the string is empty, print "invalid" otherwise print "valid"
 print("")
 print("----Task2-----")
 print("")
-
+#ask user for input
 task = input("type something : ")
-
+# if the string is empty print "invalid" else "valid"
 if task == "":
     print("invaild")
 else:
     print("vaild")
-
-  
 
 print("")
 print("----Task2-----")
@@ -48,11 +47,11 @@ It should replace all occurances regardless of captilization
 print("")
 print("----Task3-----")
 print("")
-
+#made sentence 
 sentence = "I have a Cat and a dog"
+#replaced the word "cat" with the word "dog" regardless of captilization 
 new_sentence = sentence.lower().replace ("cat","dog")
 print(new_sentence)
-
 print("")
 print("----Task3-----")
 print("")
@@ -65,12 +64,11 @@ Write a program that takes a person's name and age as input and prints it
 print("")
 print("----Task4-----")
 print("")
- 
+# ask user ofr input
 name = input("Name: ")
 age = input("Age: ")
-
+# make and print sentence with input
 my_sentence = f" Hello Im {name} and Im {age} year old. "
-
 print(my_sentence)
 
 
@@ -87,8 +85,9 @@ The result should be rounded to the nearest tenth (1 decimal place)
 print("")
 print("----Task5-----")
 print("")
-
+#divide floats 
 nmb = 20.1/5.3
+# make sure result is rounded to nearest tenth (1 decimal place) and print
 txt = f"Result: {nmb:.1f}"
 print(txt)
 print("")
