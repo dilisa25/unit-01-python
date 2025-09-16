@@ -86,7 +86,10 @@ list.
 print("")
 print("----Task6-----")
 print("")
+#Deletes an element at a specific index
 del animals[0]
+#Printed the updated list
+print(animals)
 print
 print("")
 print("----Task6-----")
@@ -99,6 +102,7 @@ Then print out the new variable
 print("")
 print("----Task7-----")
 print("")
+animals
 print("")
 print("----Task7-----")
 print("")
@@ -110,6 +114,9 @@ the updated list.
 print("")
 print("----Task8-----")
 print("")
+animals2 = ["mouse", "horse", "zebra"]
+final_list = animals + animals2
+print(final_list)
 print("")
 print("----Task8-----")
 print("")
