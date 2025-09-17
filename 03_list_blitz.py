@@ -102,7 +102,9 @@ Then print out the new variable
 print("")
 print("----Task7-----")
 print("")
-animals
+#created varariable of first 2 items, then print
+print(animals[0:2])
+
 print("")
 print("----Task7-----")
 print("")
@@ -114,7 +116,9 @@ the updated list.
 print("")
 print("----Task8-----")
 print("")
+# Created a new list
 animals2 = ["mouse", "horse", "zebra"]
+# Added new list to intial list, then print it
 final_list = animals + animals2
 print(final_list)
 print("")
