@@ -62,22 +62,23 @@ if weight <0:
     print("ERROR")
 if zone == "A" :
     priceA = weight*5
-    print(priceA)
+    print("The price is ",priceA)
 elif zone == "B":
     priceB = weight*7
-    print(priceB)
+    print("The price is ",priceB)
 
 
 
-'''
+'''Y
 Exercise 6:
 Determine the type of a triangle based on side lengths.
 Equilateral, Isosceles, Scalene, or Not a triangle.
 '''
+# set a value to each of the sides
 side1 = 3
 side2 = 3
 side3 = 4
-
+# Equilateral, Isosceles, Scalene, or Not a triangle based on side lengths
 if side1 == side2 == side3:
     print("It's a equilateral triangle.")
 elif side1 == side2 or side2 == side3 or side1== side3:
