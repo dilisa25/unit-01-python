@@ -63,7 +63,7 @@ if weight <0:
 if zone == "A" :
     priceA = weight*5
     print(priceA)
-elif zone == "B:
+elif zone == "B":
     priceB = weight*7
     print(priceB)
 
