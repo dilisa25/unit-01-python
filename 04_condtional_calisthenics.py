@@ -34,9 +34,10 @@ Exercise 3:
 Prompt the user to enter a fruit name. Check if the fruit is in the list. 
 If it is, print "Yes, that fruit is in the list." 
 '''
+#User iput and list
 user_input= input("Enter a fruit name: ")
 fruits = ["apple", "orange" "pineapple"]
-
+#if it is, print "Yes, that fruit is in the list
 if user_input in fruits:
     print("Yes, that fruit is in the list.")
 else:
@@ -56,13 +57,13 @@ If the order weight is less than 0 kg, return an error message.
 weight= int(input("What is the weight of your package: "))
 zone= input("What zone do you live in A or B : ")
 
-#
+# based on weight and zone print price
 if weight <0:
     print("ERROR")
-if zone == A :
+if zone == "A" :
     priceA = weight*5
     print(priceA)
-elif zone == B:
+elif zone == "B:
     priceB = weight*7
     print(priceB)
 
