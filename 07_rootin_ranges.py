@@ -10,8 +10,8 @@ for x in range(1, 11):
 Exercise 2:
 Write a program to count by 10s from 900 to 1000
 """
-#Created for loop to count by 10s from 900 to 1000 using range (0, 1001, 10) 
-for x in range(0, 1001, 10):
+#Created for loop to count by 10s from 900 to 1000 using range (900, 1001, 10) 
+for x in range(900, 1001, 10):
     print(x)
 """
 Exercise 3:
