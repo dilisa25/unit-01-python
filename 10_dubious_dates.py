@@ -1,0 +1,50 @@
+from datetime import datetime
+from datetime import date
+from datetime import time
+"""
+Exercise 1:
+Write a Python program that prints the current date and time using the datetime module.
+"""
+#Create 
+current_dt = datetime.now()
+
+print(current_dt)
+
+
+"""
+Exercise 2:
+Write a Python program that prints the current date and time using the datetime module.
+Using the strftime function format the date in standard U.S. date format (MM/DD/YYYY)
+"""
+current_date = datetime.now()
+
+my_string = current_date.strftime("%m/%d/%Y")
+
+print(my_string)
+
+"""
+Exercise 3:
+Using the strptime function, convert two strings into dates.
+Then find the difference in days between the two.
+"""
+string1 = "09/11/2008"
+string2 = "June 22,2025"
+
+date1 = datetime.strptime(string1, "%m/%d/%Y")
+date2 = datetime.strptime(string2, "%B %d,%Y")
+
+print(date1)
+print(date2)
+print(date2 - date1)
+
+"""
+Excercise 4:
+Write a program that asks the user for their birthdate and calculates their current 
+age using the datetime module.
+"""
+your_birthday = input("Whats your birthday?(mm/dd/yyyy): ")
+birthday = datetime.strptime(your_birthday, "%m/%d/%Y")
+today = datetime.now()
+age = today.year - birthday.year
+print("Your age is ",age) 
+
