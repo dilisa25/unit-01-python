@@ -5,7 +5,7 @@ from datetime import time
 Exercise 1:
 Write a Python program that prints the current date and time using the datetime module.
 """
-#Create 
+#Prints the current date and time using the datetime module
 current_dt = datetime.now()
 
 print(current_dt)
@@ -16,8 +16,11 @@ Exercise 2:
 Write a Python program that prints the current date and time using the datetime module.
 Using the strftime function format the date in standard U.S. date format (MM/DD/YYYY)
 """
+#Prints the current date and time using the datetime module
 current_date = datetime.now()
 
+print(current_date)
+#Used the strftime function format the date in standard U.S. date format (MM/DD/YYYY)
 my_string = current_date.strftime("%m/%d/%Y")
 
 print(my_string)
